@@ -25,7 +25,7 @@ const NewPoll = () => {
     );
     await window.contract.addCandidatePair(
         {
-            prommpt:promptRef.current.value,
+            prompt:promptRef.current.value,
             name1:candidateName1.current.value,
             name2:candidateName2.current.value,
         }
