@@ -6,9 +6,11 @@ import { initContract } from './utils'
 window.nearInitPromise = initContract()
   .then(() => {
     ReactDOM.render(
+      <React.StrictMode> 
       <HashRouter> 
         <App />
-      </HashRouter>,    
+      </HashRouter>    
+      </React.StrictMode>,
       document.querySelector('#root')
     )
   })
