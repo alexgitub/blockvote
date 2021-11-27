@@ -6,7 +6,9 @@ import { initContract } from './utils'
 window.nearInitPromise = initContract()
   .then(() => {
     ReactDOM.render(
-      <App />,
+      <HashRouter> 
+        <App />
+      </HashRouter>,    
       document.querySelector('#root')
     )
   })
