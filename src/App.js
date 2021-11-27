@@ -34,7 +34,7 @@ export default function App() {
     <Router>
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
-  <Navbar.Brand href='/'><img src={Logo}></img></Navbar.Brand>
+  <Navbar.Brand href='/Home'><img src={Logo}></img></Navbar.Brand>
             
           
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
