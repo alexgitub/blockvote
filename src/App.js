@@ -50,7 +50,7 @@ export default function App() {
   </Container>
 </Navbar>
 <Switch>
-        <Route exact path='/'>
+        <Route exact path='/Home'>
           <Home changeCandidates={changeCandidatesFunction}/>
         </Route>
         <Route exact path='/PollingStation'>
