@@ -8,9 +8,9 @@ window.nearInitPromise = initContract()
   .then(() => {
     ReactDOM.render(
       
-      
-        <App />,
-      
+      <Router>
+        <App />
+        </Router>,
       
       document.querySelector('#root')
     )
